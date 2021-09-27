@@ -1,0 +1,21 @@
+\newpage
+\section{Product Requirements}
+\subsection{Localization Methods}
+%There are in general two ways the position of a tag in tow-dimensional space can be determined. 
+There are several methods that can be used for localization with UWB. %localization methods can be used with UWB. 
+The most common ones and the ones which were considered for this project are Two-Way Ranging (TWR), Time Difference of Arrival (TDoA) and Angle of Arrival (AoA). A minimum of three anchors are needed to localize one tag in two-dimensional space with TWR and TDoA. However, only one anchor is needed with AoA, but with multiple antennas. Furthermore, AoA is not supported by today's UWB chips, which leads to a more complex hardware, but it will likely be supported in the future. For these reasons, TWR and TDoA are going to be evaluated in this project. Additionally, it is assumed that the anchors have a known fixed position. %For this reason, TWR and TDoA are xof more interest and going to be evaluated in this project. 
+
+\subsection{Technology}
+Preferably, the UWB chips ATA83-50/-52 by 3db Access AG should be used, with which also the favourable LRP mode is available. As a substitute, the UWB chip DW1000 by Decawave can be used.
+
+\subsection{Hardware}
+For an UWB-Kit, the LEGIC evaluation board EVB-6310 and the additional UWB-Board are required. To demonstrate all the different use cases based on the localization methods above, at least four UWB-Kits (1 tag + 3 anchors) are needed and every UWB-Kit should contain the following input/output elements:
+\begin{itemize}
+		\item Buttons: for various user inputs (e.g. knob of key-fob)
+		\item LEDs: output simulation (e.g. infected state, door lock status)
+\end{itemize}
+
+%The additional UWB-Board is powered by the LEGIC evaluation board. Also, for the design of the UWB-Board the UWB chip from %the 3db Access AG and the LRP UWB mode should preferably be used.
+
+\subsection{Firmware}
+For all use cases defined in \cref{sec:use_cases}, additional firmware for the LEGIC security chip SM-6310 is needed. A set of functions, which are used to configure the UWB chip and to perform the various communication and measurement tasks, should be implemented as modular as possible.
