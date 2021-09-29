@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T21:33:47.256Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="vJX-fTqqSAGa-LhF45L9" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-29T21:48:48.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="vysX3QfZEI2-0ILRhKAy" version="15.3.8" type="github">
   <diagram id="efnQxXfEBxXpbUYj1lGG" name="Page-1">
     <mxGraphModel dx="1178" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="H4YTOPenemWSvNGpPT6h-11" value="USB&lt;br&gt;Connector" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="250" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H4YTOPenemWSvNGpPT6h-16" value="IMU&lt;br&gt;ICM-20601" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="H4YTOPenemWSvNGpPT6h-16" value="IMU&lt;br&gt;LSM6DS3TR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="450" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H4YTOPenemWSvNGpPT6h-19" value="Ethernet&lt;br&gt;Connector" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
