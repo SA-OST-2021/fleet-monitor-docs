@@ -1,29 +1,26 @@
 \section{Task Definition}
-With a designated hard- and firmware extension for the LEGIC evaluation board EVB-6310, testing of the new UWB technology should be made possible for LEGIC customers. The evaluation board is based on the LEGIC security chip SM-6310, which includes a programmable ARM CORTEX and supports Bluetooth Low Energy, NFC and RFID. A possible arrangement of the extension (UWB-Board) and the evaluation board is shown in \cref{fig:constellation_HW} and subsequently referred to as UWB-Kit.
+To collect vehicle data of the Fleet Management System (FMS) and provide IP-based access, a dedicated device has to be developed. It acts as a gateway (communication bridge) and connects the internal CAN-Bus to an Ethernet interface (LAN and wireless should be supported).
 
+
+A general block diagram of the system is shown in \cref{fig:constellation_HW}.
+
+\medskip
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=11cm]{images/constellation_HW}
-	\caption{Possible hardware arrangement}
-	\vspace{-2ex}
-	\caption*{\textbf{Source:} Original task definition}
+	\includegraphics[width=9cm]{images/Block_Diagram}
+	\caption{System Block Diagram}
+	%\vspace{-2ex}
+	%\caption*{\textbf{Source:} Original task definition}
 	\label{fig:constellation_HW}
 \end{figure}
 
-To demonstrate general functionalities of UWB being
+FMS-Packages are received by the gateway and then get redirected to a local server application, running on the vehicles on-board network router.
+Further, the information can be transmitted over the internet to a cloud-based system.
+
 \begin{itemize}
-	\item distance measuring between one or more UWB-Kits
-	\item data communication between one or more UWB-Kits
-	\item (optional) trilateration with three or more UWB-Kits
+	\item bla 1
+	\item bla 2
+	\item bla 3
 \end{itemize}
 
-various use cases were defined in \cref{sec:use_cases}.
-
-%With a designated hard- and firmware extension for the Legic Evaluation Board EVB-6310, testing of the new UWB-Technology should be made possible for LEGIC customers. The evaluation board is based on the LEGIC security chip SM-6310 which includes a customizable ARM CORTEX and supports Bluetooth Low Energy, NFC and RFID. %The UWB extension should preferably be realised with the silicon chip from the 3db Access AG and in the LRP-Mode.
-
-
-
-%For the extension, UWB chips from 3db-Access should preferably be used. %, since they utilize the IEEE 802.15.4z standard.
-
-
-%The existing Evaluation Board EVB-6310, based on the LEGIC security chip SM-6310, should be extended with UWB. This enables LEGIC customers to test the UWB-Technology. Today, the evaluation board implements 
+Various use cases were defined in \cref{sec:use_cases}.
